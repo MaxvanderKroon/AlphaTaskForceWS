@@ -1,1 +1,134 @@
+body{
+	padding:0;
+	margin:0;
+  background-image:url(ATFOimages/VRindezorgchirurgie.jpg);
+  background-repeat:no-repeat;
+  background-size:100%;
+	background-color:rgba(111, 113, 125, 1.00);
+  font-family:sans-serif;
+}
 
+.introduction{
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.ouderen
+{
+  margin-left:75px;
+  margin-right:75px;
+}
+
+.fobie{
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.main-nav{
+  background-color:#6f717d;
+}
+
+.main-nav a{
+	display:inline-block;
+	background-color:rgba(111, 113, 125, 1.00);
+	color: white;
+	text-decoration:none;
+	padding: 25px;
+	position:relative;
+  bottom: 0px;
+	transition: bottom 300ms ease;
+}
+
+.main-nav a:hover{
+  background-color:rgba(160, 235, 255, 0.90);
+}
+
+.main-nav a:active{
+  background-color:rgba(160, 235, 255, 0.90);
+}
+
+@media screen and (max-width: 760px) {
+  .main-nav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.page-content{
+	padding: 20px;
+  background-color:rgba(255, 255, 255, 0.50);
+  margin-top: 200px;
+}
+
+h1{
+  color: #585961;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #585961
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(111, 113, 125);
+}
+
+h2{
+  color: #6f717d;
+}
+
+.top-nav a {
+	text-decoration: none;
+  color: #001380;
+}
+
+.top-nav ul{
+	list-style-type:none;
+  
+}
+
+.tabel{
+  margin-top:200px;
+  
+}
+
+.top-nav ul li{
+	transition: all 300ms ease;
+	left:0px;
+	position:relative;
+	text-decoration: none;
+}
+
+.top-nav ul li:hover{
+	left: 4px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
