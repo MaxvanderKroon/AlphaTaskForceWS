@@ -50,8 +50,9 @@ body{
 .main-nav e{
 	display:inline-block;
 	background-color:rgba(0, 0, 0, 1.00);
+	color: red;
 	text-decoration:none;
-	padding: 8px;
+	padding: 8px 25px 8p 25px;
 	position:relative;
   bottom: 0px;
 	transition: bottom 300ms ease;
