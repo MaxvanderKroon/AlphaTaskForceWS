@@ -26,6 +26,8 @@ body{
 
 .main-nav{
   background-color: rgba(0, 0, 0, 1.00);
+	font-size: 0px;
+
 }
 
 .main-nav a{
