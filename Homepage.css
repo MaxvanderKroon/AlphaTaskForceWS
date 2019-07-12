@@ -36,7 +36,6 @@ body{
 	text-decoration:none;
 	padding: 25px;
 	position:relative;
-	margin-right: -4px
   bottom: 0px;
 	transition: bottom 300ms ease;
 }
