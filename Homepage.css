@@ -1,10 +1,10 @@
 body{
 	padding:0;
 	margin:0;
-  background-image:url(ATFOimages/ATFOHOME.jpg);
+  background-image:url(ATFOimages/ATFOhome.jpg);
   background-repeat:no-repeat;
   background-size:100%;
-	background-color:rgba(0, 0, 0, 1.00);
+	background-color:rgba(111, 113, 125, 1.00);
   font-family:sans-serif;
 }
 
@@ -13,8 +13,7 @@ body{
   margin-right: 75px;
 }
 
-.ouderen
-{
+.ouderen{
   margin-left:75px;
   margin-right:75px;
 }
@@ -25,14 +24,13 @@ body{
 }
 
 .main-nav{
-  background-color: rgba(0, 0, 0, 1.00);
-
+  background-color:#6f717d;
 }
 
 .main-nav a{
 	display:inline-block;
 	background-color:rgba(0, 0, 0, 1.00);
-	color: red;
+	color: rgba(135, 3, 3, 1.00);
 	text-decoration:none;
 	padding: 25px;
 	position:relative;
@@ -41,13 +39,13 @@ body{
 }
 
 .main-nav a:hover{
-  background-color:rgba(111, 113, 125, 1.00);
+  background-color:rgba(111, 113, 125, 0.90);
 }
 
 .main-nav a:active{
-  background-color:rgba(111, 113, 125, 1.00);
+  background-color:rgba(160, 235, 255, 0.90);
 }
-		
+
 @media screen and (max-width: 760px) {
   .main-nav a {
     float: none;
@@ -133,3 +131,4 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
