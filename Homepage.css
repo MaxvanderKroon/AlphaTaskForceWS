@@ -30,9 +30,11 @@ body{
 .main-nav a{
 	display:inline-block;
 	background-color:rgba(0, 0, 0, 1.00);
-	color: rgba(135, 3, 3, 1.00);
+	color: rgba(255, 255, 255, 1.00);
 	text-decoration:none;
 	padding: 25px;
+	border-bottom: 2px solid;
+	border-color: rgba(255, 255, 255, 1.00)
 	position:relative;
   bottom: 0px;
 	transition: bottom 300ms ease;
