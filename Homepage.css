@@ -64,7 +64,7 @@ body{
 }
 
 h1{
-  color: #585961;
+  color: white;
   padding-bottom: 10px;
   border-bottom: 2px solid #585961
   border-bottom-width: 2px;
@@ -73,7 +73,7 @@ h1{
 }
 
 h2{
-  color: #6f717d;
+  color: white;
 }
 
 .top-nav a {
