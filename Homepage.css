@@ -43,7 +43,7 @@ body{
 }
 
 .main-nav img{
-	padding: 0px;
+	padding: -25px;
 }
 
 .main-nav a:hover{
