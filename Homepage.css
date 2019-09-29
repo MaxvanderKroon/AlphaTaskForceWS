@@ -42,6 +42,9 @@ body{
 	transition: bottom 300ms ease;
 }
 
+.main-nav img{
+	padding: 0px;
+	
 .main-nav a:hover{
   background-color:rgba(111, 113, 125, 0.90);
 }
